@@ -66,11 +66,11 @@ p{
 
 #button-nero{
     border-radius: 20px 20px 20px 20px;
-    border: 1px solid rgb(39, 39, 39);
+    border: 1px solid #23272a;
     padding: 9px;
     text-decoration: none;
     color: white;
-    background-color: rgb(39, 39, 39);
+    background-color: #23272a;
 }
 #button-bianco{
     border-radius: 20px 20px 20px 20px;
@@ -95,7 +95,7 @@ h2{
 .sec-2{
     display: flex;
     align-items: center;
-    background-color: rgb(201, 199, 199);
+    background-color: #f6f6f6;
 }
 .foto-2{
     order: 2;
@@ -109,7 +109,7 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(201, 199, 199);
+    background-color: #f6f6f6;
 }
 .foto-4{
     order: 2;
@@ -131,7 +131,7 @@ h2{
     background-position: center;
     height: 200px;
     width: 100%;
-    background-color: rgb(201, 199, 199);
+    background-color: #f6f6f6;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -143,14 +143,39 @@ h2{
 #button-blu{
     margin-top: 10px;
     border-radius: 20px 20px 20px 20px;
-    border: 1px solid rgb(81, 98, 250);
+    border: 1px solid #8ea1e1;
     padding: 9px;
     text-decoration: none;
     color:  white;
-    background-color: rgb(62, 81, 250);
+    background-color: #8ea1e1;
     margin-right: 20px
 }
 
 footer{
-    background-color: rgb(80, 78, 78);
+    background-color: #23272a;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    color: white;
+}
+h4{
+    color: #7289da;
+}
+h3{
+    color: #7289da;
+}
+.ita{
+    height: 13px;
+}
+.loghetto{
+    padding-top: 50px;
 }
