@@ -11,6 +11,7 @@ header{
     min-height: 500px;
     width: 100%;
     background-size:cover;
+    background-repeat: no-repeat;
 }
 
 .container{
@@ -178,4 +179,10 @@ h3{
 }
 .loghetto{
     padding-top: 50px;
+}
+
+.fa-brands{
+    font-size: 20px;
+    padding-right: 5px;
+    padding-top: 10px;
 }
